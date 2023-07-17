@@ -10,7 +10,7 @@ import CatCard from '../../components/catCard/CatCard';
     <div className='home'>
       <Feature/>
       <TrustedBy/>
-      <Slide slidesToShow={5} arrowsScroll={5}>
+      <Slide >
         {cards.map((card) => (
           <CatCard key={card.id} card={card} />
         ))}
