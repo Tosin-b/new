@@ -2,7 +2,6 @@ import React from "react";
 import "./Slide.scss";
 
 const Slide = ({ children }) => {
-  console.log(children)
   return (
     <div className="slide">
       <div className="container">{children}</div>
